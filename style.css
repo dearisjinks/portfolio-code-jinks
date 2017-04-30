@@ -1,8 +1,10 @@
+/********base style*******/
 body {
 	background-color: #dcd5d5;
 	position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 
 header {
@@ -43,9 +45,13 @@ h1 {
 .about-para {
 	font-size: 30px;
 	width: 80%;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	font-weight: 800px;
+}
+
+.about-para p {
+	float: left;
 }
 
 #photo-gall1 img{
@@ -80,7 +86,7 @@ h1 {
 #nav {
 	background-color: #f47d15;
 	text-align: center;
-	width: 30%;
+	width: 25%;
 	margin: 0 auto;
 	margin-bottom: 0px;
 
@@ -93,11 +99,12 @@ h1 {
 }
 
 #nav ul {
-	margin: 0;
+	margin: 0 auto;
+	padding: 0;
 }
 
 #nav a {
-	padding: 5px 30px 5px 30px;
+	
 	color: white;
 
 }
@@ -158,6 +165,15 @@ li {
 	
 }
 
+#back {
+	background-image: url('restaurant.png');
+	max-width: 100%;
+}
+
+#work {
+	background-image: url('stardust.png');
+}
+
 .skills h2 {
 	font-size: 50px;
 	color: white;
@@ -189,6 +205,7 @@ li {
 	font-family: "Amatic SC";
 	font-weight: 700;
 	text-align: center;
+	clear: both;
 }
 
 
@@ -197,7 +214,7 @@ li {
 	text-align: center;
 	margin-top: 200px;
 	font-size: 100px;
-	
+	color: #33ccff;
 
 
 }
@@ -229,13 +246,17 @@ li {
 	text-align: center;
 }
 
+
+
 .alan-w {
 	text-align: center;
-	
 	font-size: 30px;
+	clear: both;
 }
 
-/////submission Form
+
+
+/**********submission Form***********/
 
 .form {
 	width: 100%;
@@ -289,10 +310,9 @@ label {
 }
 
 
-	/* creating flip cards for sites*//////////////////
-.flip{
-		z-index: -1;
-	}
+	/*creating flip cards for sites*/
+
+
 .flip,.flip2,.flip3,.flip4,.flip5,.flip6 {
   padding: 5px;
   padding-right: 100px;
@@ -317,25 +337,21 @@ label {
 }
 
 
-////////////////////Responisve Design
+/*******************Responisve Design*************/
 
 
-@media only screen and (max-width: 320px) {
+
+
+@media  screen and (max-width: 320px) {
 
 	body {
 		margin: 0 auto;
 		max-width: 80%;
 	}
 
-}
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 1024px) {
-	body {
-		width: ;
+	li  a{
+		display: block;
+		margin: 0;
 	}
 
 }
