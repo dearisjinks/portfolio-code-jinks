@@ -166,12 +166,13 @@ li {
 }
 
 #back {
-	background-image: url('restaurant.png');
+	background-image: url('../backdrops/restaurant.png');
 	max-width: 100%;
 }
 
 #work {
-	background-image: url('stardust.png');
+	background-image: url('../backdrops/stardust.png');
+	height: 1500px;
 }
 
 .skills h2 {
