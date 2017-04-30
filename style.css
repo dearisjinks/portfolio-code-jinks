@@ -1,0 +1,341 @@
+body {
+	background-color: #dcd5d5;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	background-color: #444;
+	margin: 0 auto;
+	width: 100%;
+	height: 30px;
+	top: 0;
+	position: fixed;
+	left: 0;
+	clear: both;
+	z-index: 2;
+}
+
+footer {
+	text-align: center;
+	font-family: "Amatic SC";
+	font-weight: 600px;
+	font-size:30px;
+	padding: 10px;
+}
+
+h1 {
+	margin: 0;
+}
+
+.pic img{
+	height: 350px;
+	width: 100%;
+	margin: 300px auto;
+}
+.photome {
+	margin: auto;
+	padding: 300px;
+	
+}
+
+.about-para {
+	font-size: 30px;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 800px;
+}
+
+#photo-gall1 img{
+	height: 400px;
+	width: 400px;
+	float:left;
+	
+	padding: 5px;
+}
+#photo-gall2 img {
+	height: 220px;
+	width: 280px;
+	margin: auto;
+	padding: 10px;
+	float: left;
+}
+#logo {
+	margin: 0 auto;
+	background-color: #cdc;
+	text-align: center;
+	width: 40%;
+	height: 60px;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#logo p {
+	margin: auto;
+	padding: 5px;
+}
+
+#nav {
+	background-color: #f47d15;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 0px;
+
+}
+
+#nav li {
+	display: inline-block;
+	list-style: none;
+	padding:0 10px 0 10px;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav a {
+	padding: 5px 30px 5px 30px;
+	color: white;
+
+}
+
+#nav a:hover {
+	
+	color: black;
+	
+}
+
+.title {
+	margin:  auto;
+	text-align: center;
+	
+	padding: 20px;
+	
+	height: 100px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+h1, h2, h3 {
+	font-family: "Amatic SC";
+}
+
+p {
+	font-family: "Amatic SC";
+}
+
+li {
+	font-family: "Amatic SC";
+}
+
+.title h2 {
+	font-size: 80px;
+	color: white;
+	font-family: "Amatic SC";
+	font-weight: 700;
+}
+
+.title p {
+	font-size: 50px;
+	color: #33ccff;
+	font-family: "Amatic SC";
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.skills {
+	background-color: black;
+	height:700px; 
+	width:600px;
+	margin:  0 auto 200px;
+	background-color: #444;
+	
+}
+
+.skills h2 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.skills p {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+.skills li{
+	color: white;
+}
+
+#logos img {
+	width: 100px;
+	height: 80px;
+	float: right;
+	padding: 10px;
+	margin: 5px;
+}
+
+#contact h2 {
+	font-size: 80px;
+	color: white;
+	font-family: "Amatic SC";
+	font-weight: 700;
+	text-align: center;
+}
+
+
+
+.work-text p {
+	text-align: center;
+	margin-top: 200px;
+	font-size: 100px;
+	
+
+
+}
+
+#social-icons {
+	text-align: center;
+}
+
+#social-icons img {
+	width: 30px;
+	height:30px;
+	padding: 8px;
+	display: inline-block;
+	
+
+}
+
+#contact {
+
+	text-align: center;
+}
+
+#contact p{
+	font-size: 40px;
+	color: #33ccff;
+	font-family: "Amatic SC";
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.alan-w {
+	text-align: center;
+	
+	font-size: 30px;
+}
+
+/////submission Form
+
+.form {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+input[type="text"] {
+	width: 35%;
+	height: 40px;
+	margin: 5px;
+}
+input[type="email"] {
+	width: 30%;
+	height: 40px;
+	margin: 5px;
+}
+
+label {
+	height: 20px;
+	width: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#message {
+	width: 34%;
+	height: 20%;
+}
+
+.btn {
+	width: 20%;
+}
+
+#wrapper {
+	background-color: #f47d15;
+	width: 90%;
+	height: 1000px;
+	
+	margin: auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+
+}
+
+
+	/* creating flip cards for sites*//////////////////
+.flip{
+		z-index: -1;
+	}
+.flip,.flip2,.flip3,.flip4,.flip5,.flip6 {
+  padding: 5px;
+  padding-right: 100px;
+  width: 200px;
+  height: 150px;
+  
+  
+  
+}
+.flip img, .flip2 img, .flip3 img, .flip4 img,.flip5 img, .flip6 img {
+    width: 300px;
+    height: 200px;
+   
+}
+.flip .back, .flip2 .back, .flip3 .back,.flip4 .front,.flip5 .front,.flip6 .front {
+    background: #2184cd;
+   background-color: #cdc;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+}
+
+
+////////////////////Responisve Design
+
+
+@media only screen and (max-width: 320px) {
+
+	body {
+		margin: 0 auto;
+		max-width: 80%;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		width: ;
+	}
+
+}
