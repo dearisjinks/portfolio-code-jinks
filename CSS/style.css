@@ -24,7 +24,7 @@ footer {
 	font-family: "Amatic SC";
 	font-weight: 600px;
 	font-size:30px;
-	padding: 10px;
+	padding: 60px;
 }
 
 h1 {
@@ -32,9 +32,10 @@ h1 {
 }
 
 .pic img{
-	height: 350px;
+	height: 800px;
 	width: 100%;
 	margin: 300px auto;
+
 }
 .photome {
 	margin: auto;
@@ -289,8 +290,20 @@ label {
 	height: 20%;
 }
 
-.btn {
-	width: 20%;
+button {
+	width: 10%;
+	background-color: #33ccff;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+#message:focus{
+	box-shadow: 0 0 100px #9ecaed;
+	outline: solid;
+}
+input:focus {
+	box-shadow: 0 0 100px #9ecaed;
+	outline: solid;
 }
 
 #wrapper {
@@ -312,6 +325,8 @@ label {
 
 
 	/*creating flip cards for sites*/
+
+
 
 
 .flip,.flip2,.flip3,.flip4,.flip5,.flip6 {
